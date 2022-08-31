@@ -1,0 +1,99 @@
+Ketik di notepad anda
+# Algoritma
+Step 1 : jika n = 0 return nilai m sebagai hasil dari stop. Jika tidak, kembali ke step 2
+Step 2 : bagi nilai m dan n, masukan nilai sisanya ke 1
+Step 3 : masukan nilai n ke m dan nilai r ke n. Kembali ke step 1
+
+Pseudocode :
+While n ≠ 0 do
+r < m mod n 
+M < n
+N < r
+Return m
+
+Algoritma
+Step 1 : jika n = 0 return nilai m sebagai hasil dari stop. Jika tidak, kembali ke step 2
+Step 2 : bagi nilai m dan n, masukan nilai sisanya ke 1
+Step 3 : masukan nilai n ke m dan nilai r ke n. Kembali ke step 1
+
+Pseudocode :
+While n ≠ 0 do
+r < m mod n 
+M < n
+N < r
+Return m
+
+
+# Fungsi untuk menukar dua variabel x dan y:
+Define swap (x, y)
+Buffer = x
+x = y
+y = buffer
+
+
+piring_1 = "manggis"
+piring_2 = "pisang"
+piring_3 = "Null"
+
+[nilai awal]
+piring_1 = manggis, piring_2 = pisang
+
+piring_3 = piring_1
+#proses pertukaran 
+piring_1 = piring_2
+piring_2 = piring_3
+
+[nilai awal]
+piring_1 = manggis, piring_2 = pisang
+
+[nilai akhir]
+piring_1 = pisang, piring_2 = manggis
+
+
+
+# Luas Segitiga
+Deklarasi
+   luas    :x
+   alas   :25
+   tinggi :30
+Deskripsi
+   Read(alas, tinggi)
+   luas = 1/2 * alas * tinggi
+   write (luas)
+end
+
+
+# Luas jajar genjang
+Deklarasi
+   alas : 5
+   lebar : 3
+Deskripsi
+   read(alas, tinggi)
+   luas = 5 * 3
+   luas = 15
+end
+
+
+# Volume Tabung
+Deklarasi
+   jari-jari : 3
+   tinggi : 5
+Deskripsi
+   read(jari-jari * tinggi)
+   V = 3.14 * 3 * 3 * 5
+output 
+   write (volume)
+end
+
+
+# Volume Kerucut
+Deklarasi
+   phi : 3.14
+   diameter : 5
+   tinggi : 4
+Deskripsi
+   read(1/3 * phi * jari-jari * jari-jari * tinggi)
+   V = ((1/3) * (3.14 * r * r) *t))
+output 
+   write (volume)
+end

@@ -1,0 +1,10 @@
+# Volume Tabung
+Deklarasi
+   jari-jari : 3
+   tinggi : 5
+Deskripsi
+   read(jari-jari * tinggi)
+   V = 3.14 * 3 * 3 * 5
+output 
+   write (volume)
+end
